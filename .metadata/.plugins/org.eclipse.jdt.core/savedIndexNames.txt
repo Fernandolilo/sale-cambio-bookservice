@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/fernando/temp-sts/cambioService-book/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+648562230.index
+2468974545.index
