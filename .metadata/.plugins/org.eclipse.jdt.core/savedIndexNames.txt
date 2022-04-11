@@ -56,7 +56,6 @@ INDEX VERSION 1.131+/home/fernando/temp-sts/cambioService-book/.metadata/.plugin
 1245209538.index
 3746001274.index
 1271983473.index
-2087139972.index
 4171240740.index
 4040077631.index
 3338834788.index
