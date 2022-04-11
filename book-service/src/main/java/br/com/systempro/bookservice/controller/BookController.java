@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.systempro.bookservice.model.Book;
+import br.com.systempro.bookservice.repositories.BookRepository;
 
 @RestController
 @RequestMapping("book-service")
@@ -23,13 +24,21 @@ public class BookController {
 	
 	@Autowired
 	private Environment environment;
+	
+	@Autowired
+	private BookRepository repository;
 
 	@GetMapping(value = "/{id}/{currency}")
 	public Book findById(@PathVariable("id") Long id, @PathVariable("currency") String currency) {	
 
+		var book = repository.getById(id);
+		if(book == null) {
+			throw new RuntimeException("Book not found");
+		}
 		//recuperando a porta do serviço
 		var port = environment.getProperty("local.server.port");
-		//passando dados mockados
-		return new Book(1L, "Fernando", "Docker", new Date(), Double.valueOf(13.7), currency, port);
+		book.setEnvitonment(port);
+
+		return  book;
 	}
 }
