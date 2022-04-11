@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/media/fernando/MULTIBOOT/back-up notebook/E-commerc"/>
 			<item value="/home/fernando/temp-sts/cambioService-book/cambio-service"/>
 		</list>
 		<list key="projectNameTemplate">
