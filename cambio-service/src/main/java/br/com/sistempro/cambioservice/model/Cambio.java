@@ -1,6 +1,5 @@
 package br.com.sistempro.cambioservice.model;
 
-
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Objects;
@@ -24,10 +23,11 @@ public class Cambio implements Serializable {
 	@Column(name = "to_currency", nullable = false, length = 3)
 	private String to;
 	@Column(nullable = false)
-	private BigDecimal convetionFactor;
+	private BigDecimal conversionFactor;
 	/*
 	 * não será persistido na base estamos informando que é um objeto transiente.
 	 */
+	
 	@Transient
 	private BigDecimal convertedValue;
 	@Transient
@@ -36,13 +36,12 @@ public class Cambio implements Serializable {
 	public Cambio() {
 	}
 
-	public Cambio(Long id, String from, String to, BigDecimal convetionFactor, BigDecimal convertedValue,
+	public Cambio(Long id, String from, String to, BigDecimal conversionFactor, BigDecimal convertedValue,
 			String environment) {
-		super();
 		this.id = id;
 		this.from = from;
 		this.to = to;
-		this.convetionFactor = convetionFactor;
+		this.conversionFactor = conversionFactor;
 		this.convertedValue = convertedValue;
 		this.environment = environment;
 	}
@@ -72,11 +71,11 @@ public class Cambio implements Serializable {
 	}
 
 	public BigDecimal getConvetionFactor() {
-		return convetionFactor;
+		return conversionFactor;
 	}
 
-	public void setConvetionFactor(BigDecimal convetionFactor) {
-		this.convetionFactor = convetionFactor;
+	public void setConvetionFactor(BigDecimal conversionFactor) {
+		this.conversionFactor = conversionFactor;
 	}
 
 	public BigDecimal getConvertedValue() {
@@ -97,7 +96,7 @@ public class Cambio implements Serializable {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(convertedValue, convetionFactor, environment, from, id, to);
+		return Objects.hash(conversionFactor, convertedValue, environment, from, id, to);
 	}
 
 	@Override
@@ -109,8 +108,8 @@ public class Cambio implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		Cambio other = (Cambio) obj;
-		return Objects.equals(convertedValue, other.convertedValue)
-				&& Objects.equals(convetionFactor, other.convetionFactor)
+		return Objects.equals(conversionFactor, other.conversionFactor)
+				&& Objects.equals(convertedValue, other.convertedValue)
 				&& Objects.equals(environment, other.environment) && Objects.equals(from, other.from)
 				&& Objects.equals(id, other.id) && Objects.equals(to, other.to);
 	}
