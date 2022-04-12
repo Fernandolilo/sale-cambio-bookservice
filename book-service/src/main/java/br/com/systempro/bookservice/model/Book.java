@@ -13,7 +13,11 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.persistence.Transient;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 @Entity(name = "book")
+//proteção para não serializar estes parametros
+@JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })
 public class Book implements Serializable {
 	private static final long serialVersionUID = 1L;
 
@@ -29,7 +33,7 @@ public class Book implements Serializable {
 	private Double price;
 	@Column(nullable = false, length = 250)
 	private String title;
-	
+
 	@Transient
 	private String currency;
 	@Transient
