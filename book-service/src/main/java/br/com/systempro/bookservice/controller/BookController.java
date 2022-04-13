@@ -1,19 +1,15 @@
 package br.com.systempro.bookservice.controller;
 
-import java.util.Date;
-import java.util.HashMap;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
 import br.com.systempro.bookservice.model.Book;
+import br.com.systempro.bookservice.proxi.CambioProxi;
 import br.com.systempro.bookservice.repositories.BookRepository;
-import response.Cambio;
 
 @RestController
 @RequestMapping("book-service")
@@ -27,9 +23,39 @@ public class BookController {
 
 	@Autowired
 	private Environment environment;
-
 	@Autowired
 	private BookRepository repository;
+	@Autowired
+	private CambioProxi cambioProxi;
+
+
+	/*
+	 * @GetMapping(value = "/{id}/{currency}") public Book
+	 * findById(@PathVariable("id") Long id, @PathVariable("currency") String
+	 * currency) {
+	 * 
+	 * var book = repository.getById(id); if (book == null) { throw new
+	 * RuntimeException("Book not found"); }
+	 * 
+	 * estão depois de recuperado o livro, vamos consumir o serviço atraves do rest
+	 * template, o Json esta vindo formatado por Cambio.class, HashMap<String,
+	 * String> params = new HashMap<>(); pegando este HashMap para passar os
+	 * paramentros do RestTemplate, este será o amount, o from e to
+	 * 
+	 * HashMap<String, String> params = new HashMap<>();
+	 * 
+	 * params.put("amount", book.getPrice().toString()); params.put("from", "USD");
+	 * params.put("to", currency);
+	 * 
+	 * var response = new RestTemplate()
+	 * .getForEntity("http://localhost:8000/cambio-service/{amount}/{from}/{to}",
+	 * Cambio.class, params);
+	 * 
+	 * var cambio = response.getBody(); // recuperando a porta do serviço var port =
+	 * environment.getProperty("local.server.port"); book.setEnvitonment(port);
+	 * //onde efetua a conversão book.setPrice(cambio.getConvertedValue()); return
+	 * book; }
+	 */
 
 	@GetMapping(value = "/{id}/{currency}")
 	public Book findById(@PathVariable("id") Long id, @PathVariable("currency") String currency) {
@@ -38,27 +64,29 @@ public class BookController {
 		if (book == null) {
 			throw new RuntimeException("Book not found");
 		}
-		/*
-		 * estão depois de recuperado o livro, vamos consumir o serviço atraves do rest
-		 * template, o Json esta vindo formatado por Cambio.class, HashMap<String,
-		 * String> params = new HashMap<>(); pegando este HashMap para passar os
-		 * paramentros do RestTemplate, este será o amount, o from e to
-		 */
-		HashMap<String, String> params = new HashMap<>();
-		
-		params.put("amount", book.getPrice().toString());
-		params.put("from", "USD");
-		params.put("to", currency);
-		
-		var response  = new RestTemplate()
-				.getForEntity("http://localhost:8000/cambio-service/{amount}/{from}/{to}",
-				Cambio.class, params);
 
-		var cambio = response.getBody();
+		/*
+		 * no caso em vez de sempre fazer esta implementatação, atribuimos ela a um
+		 * proxi, com o feign, importamos o proxi para dentro da class, agora sua nova
+		 * declaração => var cambio = cambioProxi.getCambio(book.getPrice(), "USD",
+		 * currency);
+		 * HashMap<String, String> params = new HashMap<>();
+		 * 
+		 * params.put("amount", book.getPrice().toString()); params.put("from", "USD");
+		 * params.put("to", currency);
+		 * 
+		 * var response = new RestTemplate()
+		 * .getForEntity("http://localhost:8000/cambio-service/{amount}/{from}/{to}",
+		 * Cambio.class, params);
+		 * 
+		 * var cambio = response.getBody()
+		 */
+
+		var cambio = cambioProxi.getCambio(book.getPrice(), "USD", currency);
 		// recuperando a porta do serviço
 		var port = environment.getProperty("local.server.port");
-		book.setEnvitonment(port);
-		//onde efetua a conversão
+		book.setEnvitonment(port + " FEIGN");
+		// onde efetua a conversão
 		book.setPrice(cambio.getConvertedValue());
 		return book;
 	}
