@@ -8484,3 +8484,449 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
 	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-04-13 06:56:52,337 [Worker-66: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.sistempro.cambio-service:cambio-service:0.0.1-SNAPSHOT @ /home/fernando/temp-sts/cambioService-book/cambio-service/pom.xml.
+2022-04-13 06:56:53,447 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:56:53,745 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:56:53,947 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.1.2-SNAPSHOT/spring-cloud-starter-netflix-eureka-client-3.1.2-20220412.144218-148.pom
+2022-04-13 06:56:54,200 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.1.2-SNAPSHOT/spring-cloud-starter-netflix-eureka-client-3.1.2-20220412.144218-148.pom
+2022-04-13 06:56:54,562 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:56:54,767 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:56:54,972 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.1.2-SNAPSHOT/spring-cloud-netflix-eureka-client-3.1.2-20220412.144130-148.pom
+2022-04-13 06:56:55,179 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.1.2-SNAPSHOT/spring-cloud-netflix-eureka-client-3.1.2-20220412.144130-148.pom
+2022-04-13 06:56:55,995 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/code/gson/gson/2.9.0/gson-2.9.0.pom
+2022-04-13 06:56:57,020 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.9.0/gson-2.9.0.pom
+2022-04-13 06:56:57,585 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.9.0/gson-2.9.0.pom
+2022-04-13 06:56:57,838 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/code/gson/gson-parent/2.9.0/gson-parent-2.9.0.pom
+2022-04-13 06:56:58,044 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.9.0/gson-parent-2.9.0.pom
+2022-04-13 06:56:58,249 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.9.0/gson-parent-2.9.0.pom
+2022-04-13 06:56:58,540 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:56:58,676 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:56:58,817 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.1.2-SNAPSHOT/spring-cloud-starter-loadbalancer-3.1.2-20220413.021550-114.pom
+2022-04-13 06:56:59,069 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.1.2-SNAPSHOT/spring-cloud-starter-loadbalancer-3.1.2-20220413.021550-114.pom
+2022-04-13 06:56:59,272 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:56:59,482 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:56:59,683 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.1.2-SNAPSHOT/spring-cloud-loadbalancer-3.1.2-20220413.021531-114.pom
+2022-04-13 06:56:59,887 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.1.2-SNAPSHOT/spring-cloud-loadbalancer-3.1.2-20220413.021531-114.pom
+2022-04-13 06:57:00,028 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16.pom
+2022-04-13 06:57:00,193 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16.pom
+2022-04-13 06:57:00,343 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16.pom
+2022-04-13 06:57:00,477 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/projectreactor/addons/reactor-extra/3.4.7/reactor-extra-3.4.7.pom
+2022-04-13 06:57:00,626 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.7/reactor-extra-3.4.7.pom
+2022-04-13 06:57:00,915 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.7/reactor-extra-3.4.7.pom
+2022-04-13 06:57:01,051 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-cache/2.7.0-M3/spring-boot-starter-cache-2.7.0-M3.pom
+2022-04-13 06:57:01,230 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-cache/2.7.0-M3/spring-boot-starter-cache-2.7.0-M3.pom
+2022-04-13 06:57:01,525 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/spring-context-support/5.3.17/spring-context-support-5.3.17.pom
+2022-04-13 06:57:01,729 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.17/spring-context-support-5.3.17.pom
+2022-04-13 06:57:01,934 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.17/spring-context-support-5.3.17.pom
+2022-04-13 06:57:02,087 [AetherRepositoryConnector-repo.spring.io-12-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.1.2-SNAPSHOT/spring-cloud-starter-netflix-eureka-client-3.1.2-20220412.144218-148.jar
+2022-04-13 06:57:02,512 [AetherRepositoryConnector-repo.spring.io-12-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.1.2-SNAPSHOT/spring-cloud-starter-netflix-eureka-client-3.1.2-20220412.144218-148.jar
+2022-04-13 06:57:02,642 [AetherRepositoryConnector-repo.spring.io-12-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.1.2-SNAPSHOT/spring-cloud-starter-loadbalancer-3.1.2-20220413.021550-114.jar
+2022-04-13 06:57:02,960 [AetherRepositoryConnector-repo.spring.io-12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter/3.1.2-SNAPSHOT/spring-cloud-starter-3.1.2-20220413.021538-114.jar
+2022-04-13 06:57:02,963 [AetherRepositoryConnector-repo.spring.io-12-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.1.2-SNAPSHOT/spring-cloud-starter-loadbalancer-3.1.2-20220413.021550-114.jar
+2022-04-13 06:57:03,164 [AetherRepositoryConnector-repo.spring.io-12-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-context/3.1.2-SNAPSHOT/spring-cloud-context-3.1.2-20220413.021501-114.jar
+2022-04-13 06:57:03,164 [AetherRepositoryConnector-repo.spring.io-12-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons/3.1.2-SNAPSHOT/spring-cloud-commons-3.1.2-20220413.021518-114.jar
+2022-04-13 06:57:03,164 [AetherRepositoryConnector-repo.spring.io-12-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.1.2-SNAPSHOT/spring-cloud-netflix-eureka-client-3.1.2-20220412.144130-148.jar
+2022-04-13 06:57:03,166 [AetherRepositoryConnector-repo.spring.io-12-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.1.2-SNAPSHOT/spring-cloud-loadbalancer-3.1.2-20220413.021531-114.jar
+2022-04-13 06:57:03,167 [AetherRepositoryConnector-repo.spring.io-12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter/3.1.2-SNAPSHOT/spring-cloud-starter-3.1.2-20220413.021538-114.jar
+2022-04-13 06:57:03,968 [AetherRepositoryConnector-repo.spring.io-12-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.1.2-SNAPSHOT/spring-cloud-netflix-eureka-client-3.1.2-20220412.144130-148.jar
+2022-04-13 06:57:03,979 [AetherRepositoryConnector-repo.spring.io-12-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.1.2-SNAPSHOT/spring-cloud-loadbalancer-3.1.2-20220413.021531-114.jar
+2022-04-13 06:57:03,979 [AetherRepositoryConnector-repo.spring.io-12-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-context/3.1.2-SNAPSHOT/spring-cloud-context-3.1.2-20220413.021501-114.jar
+2022-04-13 06:57:08,600 [AetherRepositoryConnector-repo.spring.io-12-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons/3.1.2-SNAPSHOT/spring-cloud-commons-3.1.2-20220413.021518-114.jar
+2022-04-13 06:57:09,171 [AetherRepositoryConnector-repo.spring.io-13-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar
+2022-04-13 06:57:09,172 [AetherRepositoryConnector-repo.spring.io-13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16.jar
+2022-04-13 06:57:09,172 [AetherRepositoryConnector-repo.spring.io-13-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/projectreactor/addons/reactor-extra/3.4.7/reactor-extra-3.4.7.jar
+2022-04-13 06:57:09,172 [AetherRepositoryConnector-repo.spring.io-13-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-cache/2.7.0-M3/spring-boot-starter-cache-2.7.0-M3.jar
+2022-04-13 06:57:09,172 [AetherRepositoryConnector-repo.spring.io-13-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/spring-context-support/5.3.17/spring-context-support-5.3.17.jar
+2022-04-13 06:57:09,176 [AetherRepositoryConnector-repo.maven.apache.org-14-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar
+2022-04-13 06:57:09,176 [AetherRepositoryConnector-repo.maven.apache.org-14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16.jar
+2022-04-13 06:57:09,177 [AetherRepositoryConnector-repo.maven.apache.org-14-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.7/reactor-extra-3.4.7.jar
+2022-04-13 06:57:09,177 [AetherRepositoryConnector-repo.maven.apache.org-14-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/2.7.0-M3/spring-boot-starter-cache-2.7.0-M3.jar
+2022-04-13 06:57:09,177 [AetherRepositoryConnector-repo.maven.apache.org-14-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.17/spring-context-support-5.3.17.jar
+2022-04-13 06:57:10,654 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:57:10,655 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:57:10,656 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-13 06:57:10,698 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-04-13 06:57:10,703 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:57:10,704 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:57:10,704 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/cambioService-book/cambio-service/src/test/resources
+2022-04-13 06:57:11,285 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.1.2-SNAPSHOT/spring-cloud-starter-netflix-eureka-client-3.1.2-SNAPSHOT-sources.jar
+2022-04-13 06:57:11,289 [Worker-66: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:3.1.2-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:sources:3.1.2-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-04-13 06:57:12,662 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter/3.1.2-SNAPSHOT/spring-cloud-starter-3.1.2-20220413.021538-114-javadoc.jar
+2022-04-13 06:57:12,796 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter/3.1.2-SNAPSHOT/spring-cloud-starter-3.1.2-20220413.021538-114-javadoc.jar
+2022-04-13 06:57:12,925 [Worker-66: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.cloud:spring-cloud-starter:3.1.2-SNAPSHOT
+2022-04-13 06:57:13,814 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-context/3.1.2-SNAPSHOT/spring-cloud-context-3.1.2-20220413.021501-114-sources.jar
+2022-04-13 06:57:14,427 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-context/3.1.2-SNAPSHOT/spring-cloud-context-3.1.2-20220413.021501-114-sources.jar
+2022-04-13 06:57:14,535 [Worker-66: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-context:3.1.2-SNAPSHOT
+2022-04-13 06:57:15,379 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.1.2-SNAPSHOT/spring-cloud-netflix-eureka-client-3.1.2-20220412.144130-148-sources.jar
+2022-04-13 06:57:15,590 [Worker-46: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.systempro:book-service:0.0.1-SNAPSHOT @ /home/fernando/temp-sts/cambioService-book/book-service/pom.xml.
+2022-04-13 06:57:16,066 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.1.2-SNAPSHOT/spring-cloud-netflix-eureka-client-3.1.2-20220412.144130-148-sources.jar
+2022-04-13 06:57:16,175 [Worker-66: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-netflix-eureka-client:3.1.2-SNAPSHOT
+2022-04-13 06:57:16,550 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.6/reactor-extra-3.4.6.pom
+2022-04-13 06:57:17,091 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/code/gson/gson/2.9.0/gson-2.9.0-sources.jar
+2022-04-13 06:57:17,092 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.6/reactor-extra-3.4.6.pom
+2022-04-13 06:57:17,778 [AetherRepositoryConnector-repo.spring.io-15-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/projectreactor/addons/reactor-extra/3.4.6/reactor-extra-3.4.6.jar
+2022-04-13 06:57:17,780 [AetherRepositoryConnector-repo.spring.io-15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/projectreactor/reactor-core/3.4.15/reactor-core-3.4.15.jar
+2022-04-13 06:57:17,863 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.9.0/gson-2.9.0-sources.jar
+2022-04-13 06:57:17,900 [AetherRepositoryConnector-repo.spring.io-15-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/spring-context-support/5.3.16/spring-context-support-5.3.16.jar
+2022-04-13 06:57:17,900 [AetherRepositoryConnector-repo.spring.io-15-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-cache/2.5.10/spring-boot-starter-cache-2.5.10.jar
+2022-04-13 06:57:17,905 [AetherRepositoryConnector-repo.spring.io-15-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.5/spring-cloud-starter-netflix-eureka-client-3.0.5.jar
+2022-04-13 06:57:18,085 [AetherRepositoryConnector-repo.maven.apache.org-16-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.5/spring-cloud-starter-netflix-eureka-client-3.0.5.jar
+2022-04-13 06:57:18,300 [AetherRepositoryConnector-repo.maven.apache.org-16-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.16/spring-context-support-5.3.16.jar
+2022-04-13 06:57:18,341 [AetherRepositoryConnector-repo.maven.apache.org-16-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/2.5.10/spring-boot-starter-cache-2.5.10.jar
+2022-04-13 06:57:18,458 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.9.0/gson-2.9.0-sources.jar
+2022-04-13 06:57:18,483 [AetherRepositoryConnector-repo.maven.apache.org-16-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.6/reactor-extra-3.4.6.jar
+2022-04-13 06:57:18,483 [AetherRepositoryConnector-repo.maven.apache.org-16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.15/reactor-core-3.4.15.jar
+2022-04-13 06:57:18,531 [AetherRepositoryConnector-repo.maven.apache.org-16-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.5/spring-cloud-starter-netflix-eureka-client-3.0.5.jar
+2022-04-13 06:57:18,597 [Worker-66: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.gson:gson:2.9.0
+2022-04-13 06:57:18,715 [AetherRepositoryConnector-repo.maven.apache.org-16-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/2.5.10/spring-boot-starter-cache-2.5.10.jar
+2022-04-13 06:57:19,135 [AetherRepositoryConnector-repo.maven.apache.org-16-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.16/spring-context-support-5.3.16.jar
+2022-04-13 06:57:19,246 [AetherRepositoryConnector-repo.maven.apache.org-16-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.6/reactor-extra-3.4.6.jar
+2022-04-13 06:57:19,376 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.1.2-SNAPSHOT/spring-cloud-starter-loadbalancer-3.1.2-SNAPSHOT-sources.jar
+2022-04-13 06:57:19,378 [Worker-66: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-loadbalancer:3.1.2-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:3.1.2-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-04-13 06:57:19,411 [AetherRepositoryConnector-repo.maven.apache.org-16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.15/reactor-core-3.4.15.jar
+2022-04-13 06:57:20,208 [Worker-46: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.sistempro.cambio-service:cambio-service:0.0.1-SNAPSHOT @ /home/fernando/temp-sts/cambioService-book/cambio-service/pom.xml.
+2022-04-13 06:57:20,368 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.1.2-SNAPSHOT/spring-cloud-loadbalancer-3.1.2-20220413.021531-114-sources.jar
+2022-04-13 06:57:20,982 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.1.2-SNAPSHOT/spring-cloud-loadbalancer-3.1.2-20220413.021531-114-sources.jar
+2022-04-13 06:57:21,085 [Worker-66: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-loadbalancer:3.1.2-SNAPSHOT
+2022-04-13 06:57:21,830 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:57:21,830 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:57:21,830 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-13 06:57:21,865 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-04-13 06:57:21,870 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:57:21,870 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:57:21,870 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/cambioService-book/book-service/src/test/resources
+2022-04-13 06:57:23,848 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16-sources.jar
+2022-04-13 06:57:24,669 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16-sources.jar
+2022-04-13 06:57:25,897 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16-sources.jar
+2022-04-13 06:57:25,995 [Worker-66: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.projectreactor:reactor-core:3.4.16
+2022-04-13 06:57:27,125 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/projectreactor/addons/reactor-extra/3.4.7/reactor-extra-3.4.7-sources.jar
+2022-04-13 06:57:28,100 [Worker-62: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-13 06:57:28,153 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.7/reactor-extra-3.4.7-sources.jar
+2022-04-13 06:57:28,351 [Worker-62: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.sistempro.cambio-service:cambio-service:0.0.1-SNAPSHOT @ /home/fernando/temp-sts/cambioService-book/cambio-service/pom.xml.
+2022-04-13 06:57:28,764 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.7/reactor-extra-3.4.7-sources.jar
+2022-04-13 06:57:28,889 [Worker-66: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.projectreactor.addons:reactor-extra:3.4.7
+2022-04-13 06:57:29,352 [Worker-62: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cambio-service/src/main/java
+2022-04-13 06:57:29,352 [Worker-62: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cambio-service/src/main/resources
+2022-04-13 06:57:29,352 [Worker-62: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cambio-service/src/main/resources
+2022-04-13 06:57:29,353 [Worker-62: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cambio-service/src/test/java
+2022-04-13 06:57:30,402 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-cache/2.7.0-M3/spring-boot-starter-cache-2.7.0-M3-sources.jar
+2022-04-13 06:57:30,441 [Worker-62: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-04-13 06:57:30,532 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-cache/2.7.0-M3/spring-boot-starter-cache-2.7.0-M3-sources.jar
+2022-04-13 06:57:30,615 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:57:30,615 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:57:30,616 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-13 06:57:30,637 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-04-13 06:57:30,647 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:57:30,648 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:57:30,648 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/cambioService-book/cambio-service/src/test/resources
+2022-04-13 06:57:30,654 [Worker-66: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-cache:2.7.0-M3
+2022-04-13 06:57:31,630 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/spring-context-support/5.3.17/spring-context-support-5.3.17-sources.jar
+2022-04-13 06:57:32,745 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.17/spring-context-support-5.3.17-sources.jar
+2022-04-13 06:57:33,884 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.17/spring-context-support-5.3.17-sources.jar
+2022-04-13 06:57:34,016 [Worker-66: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:5.3.17
+2022-04-13 06:57:40,529 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.5/spring-cloud-starter-netflix-eureka-client-3.0.5-sources.jar
+2022-04-13 06:57:41,398 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.5/spring-cloud-starter-netflix-eureka-client-3.0.5-sources.jar
+2022-04-13 06:57:41,399 [Worker-66: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:3.0.5
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:sources:3.0.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-04-13 06:57:42,753 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/projectreactor/reactor-core/3.4.15/reactor-core-3.4.15-sources.jar
+2022-04-13 06:57:43,716 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.15/reactor-core-3.4.15-sources.jar
+2022-04-13 06:57:44,943 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.15/reactor-core-3.4.15-sources.jar
+2022-04-13 06:57:45,009 [Worker-66: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.projectreactor:reactor-core:3.4.15
+2022-04-13 06:57:45,966 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/projectreactor/addons/reactor-extra/3.4.6/reactor-extra-3.4.6-sources.jar
+2022-04-13 06:57:46,674 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.6/reactor-extra-3.4.6-sources.jar
+2022-04-13 06:57:47,196 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.6/reactor-extra-3.4.6-sources.jar
+2022-04-13 06:57:47,266 [Worker-66: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.projectreactor.addons:reactor-extra:3.4.6
+2022-04-13 06:57:49,243 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-cache/2.5.10/spring-boot-starter-cache-2.5.10-sources.jar
+2022-04-13 06:57:50,268 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/2.5.10/spring-boot-starter-cache-2.5.10-sources.jar
+2022-04-13 06:57:50,638 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/2.5.10/spring-boot-starter-cache-2.5.10-sources.jar
+2022-04-13 06:57:50,772 [Worker-66: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-cache:2.5.10
+2022-04-13 06:57:51,906 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/spring-context-support/5.3.16/spring-context-support-5.3.16-sources.jar
+2022-04-13 06:57:53,341 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.16/spring-context-support-5.3.16-sources.jar
+2022-04-13 06:57:53,961 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.16/spring-context-support-5.3.16-sources.jar
+2022-04-13 06:57:54,049 [Worker-66: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:5.3.16
+2022-04-13 06:57:55,388 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons/3.1.2-SNAPSHOT/spring-cloud-commons-3.1.2-20220413.021518-114-sources.jar
+2022-04-13 06:57:56,412 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons/3.1.2-SNAPSHOT/spring-cloud-commons-3.1.2-20220413.021518-114-sources.jar
+2022-04-13 06:57:56,516 [Worker-66: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-commons:3.1.2-SNAPSHOT
+2022-04-13 06:57:57,490 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:57:57,490 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:57:57,491 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-13 06:57:57,493 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-04-13 06:57:57,500 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:57:57,500 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:57:57,500 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/cambioService-book/book-service/src/test/resources
+2022-04-13 06:57:57,544 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:57:57,544 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:57:57,546 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-13 06:57:57,546 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-13 06:57:57,550 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:57:57,551 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:57:57,551 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/cambioService-book/cambio-service/src/test/resources
+2022-04-13 06:58:04,094 [Worker-46: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-13 06:58:04,421 [Worker-46: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.sistempro.cambio-service:cambio-service:0.0.1-SNAPSHOT @ /home/fernando/temp-sts/cambioService-book/cambio-service/pom.xml.
+2022-04-13 06:58:05,120 [Worker-46: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cambio-service/src/main/java
+2022-04-13 06:58:05,120 [Worker-46: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cambio-service/src/main/resources
+2022-04-13 06:58:05,120 [Worker-46: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cambio-service/src/main/resources
+2022-04-13 06:58:05,121 [Worker-46: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cambio-service/src/test/java
+2022-04-13 06:58:05,407 [Worker-46: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-04-13 06:58:06,623 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:58:06,623 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:58:06,624 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-13 06:58:06,646 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-04-13 06:58:06,655 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:58:06,655 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:58:06,655 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/cambioService-book/cambio-service/src/test/resources
+2022-04-13 06:58:07,331 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:58:07,331 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:58:07,331 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-13 06:58:07,333 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-13 06:58:07,336 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:58:07,337 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:58:07,337 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/cambioService-book/service-registry/src/test/resources
+2022-04-13 06:58:07,705 [Worker-46: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.1.2-SNAPSHOT/spring-cloud-starter-netflix-eureka-client-3.1.2-SNAPSHOT-javadoc.jar
+2022-04-13 06:58:07,708 [Worker-46: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:3.1.2-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:3.1.2-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-04-13 06:58:08,495 [Worker-46: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.1.2-SNAPSHOT/spring-cloud-starter-loadbalancer-3.1.2-SNAPSHOT-javadoc.jar
+2022-04-13 06:58:08,496 [Worker-46: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-loadbalancer:3.1.2-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:3.1.2-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-04-13 06:58:20,884 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-13 06:58:22,012 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-dependencies/2021.0.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:22,429 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-dependencies/2021.0.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:22,831 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-dependencies-parent/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:23,037 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-dependencies-parent/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:23,241 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:23,437 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:23,570 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:23,856 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:24,060 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-stream-dependencies/3.2.3-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:24,265 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-stream-dependencies/3.2.3-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:24,470 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-task-dependencies/2.4.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:24,675 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-task-dependencies/2.4.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:24,879 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:25,289 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:25,456 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-config-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:25,699 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-config-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:25,904 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-function-dependencies/3.2.3-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:26,051 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-function-dependencies/3.2.3-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:26,313 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-gateway-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:26,445 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-gateway-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:26,722 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-consul-dependencies/3.1.1-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:26,928 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-consul-dependencies/3.1.1-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:27,337 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:27,560 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:27,746 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-vault-dependencies/3.1.1-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:27,933 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-vault-dependencies/3.1.1-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:28,156 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:28,365 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:28,546 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.1.1-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:28,771 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.1.1-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:28,975 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-bus-dependencies/3.1.1-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:29,181 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-bus-dependencies/3.1.1-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:29,385 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-contract-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:29,515 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-contract-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:29,794 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:30,000 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:30,204 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:30,409 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:30,586 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.sistempro.cambio-service:cambio-service:0.0.1-SNAPSHOT @ /home/fernando/temp-sts/cambioService-book/cambio-service/pom.xml.
+2022-04-13 06:58:31,023 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:31,154 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:31,433 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:31,843 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:32,047 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-build/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:32,176 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-build/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:32,457 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-build-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:32,587 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-build-dependencies/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:32,866 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:32,999 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:33,276 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons-parent/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:33,481 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons-parent/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:33,686 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-context/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:33,892 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-context/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:34,028 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:34,171 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:34,505 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:34,710 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:34,914 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:35,120 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:35,324 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:35,529 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.1.2-SNAPSHOT/maven-metadata.xml
+2022-04-13 06:58:36,349 [AetherRepositoryConnector-repo.spring.io-17-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-cache/2.7.0-M3/spring-boot-starter-cache-2.7.0-M3.jar
+2022-04-13 06:58:36,554 [AetherRepositoryConnector-repo.spring.io-17-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar
+2022-04-13 06:58:36,554 [AetherRepositoryConnector-repo.spring.io-17-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/spring-context-support/5.3.17/spring-context-support-5.3.17.jar
+2022-04-13 06:58:36,554 [AetherRepositoryConnector-repo.spring.io-17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16.jar
+2022-04-13 06:58:36,554 [AetherRepositoryConnector-repo.spring.io-17-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/projectreactor/addons/reactor-extra/3.4.7/reactor-extra-3.4.7.jar
+2022-04-13 06:58:36,555 [AetherRepositoryConnector-repo.spring.io-17-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-cache/2.7.0-M3/spring-boot-starter-cache-2.7.0-M3.jar
+2022-04-13 06:58:37,579 [AetherRepositoryConnector-repo.maven.apache.org-18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16.jar
+2022-04-13 06:58:37,746 [AetherRepositoryConnector-repo.maven.apache.org-18-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.17/spring-context-support-5.3.17.jar
+2022-04-13 06:58:37,746 [AetherRepositoryConnector-repo.maven.apache.org-18-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.7/reactor-extra-3.4.7.jar
+2022-04-13 06:58:37,746 [AetherRepositoryConnector-repo.maven.apache.org-18-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar
+2022-04-13 06:58:38,465 [AetherRepositoryConnector-repo.maven.apache.org-18-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.17/spring-context-support-5.3.17.jar
+2022-04-13 06:58:38,494 [AetherRepositoryConnector-repo.maven.apache.org-18-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.7/reactor-extra-3.4.7.jar
+2022-04-13 06:58:38,494 [AetherRepositoryConnector-repo.maven.apache.org-18-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar
+2022-04-13 06:58:38,806 [AetherRepositoryConnector-repo.maven.apache.org-18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16.jar
+2022-04-13 06:58:39,592 [Worker-56: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cambio-service/src/main/java
+2022-04-13 06:58:39,593 [Worker-56: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cambio-service/src/main/resources
+2022-04-13 06:58:39,593 [Worker-56: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cambio-service/src/main/resources
+2022-04-13 06:58:39,594 [Worker-56: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cambio-service/src/test/java
+2022-04-13 06:58:39,859 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 18 sec
+2022-04-13 06:58:40,541 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:58:40,541 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:58:40,542 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-13 06:58:40,564 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-04-13 06:58:40,573 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 06:58:40,573 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 06:58:40,573 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/cambioService-book/cambio-service/src/test/resources
+2022-04-13 07:00:29,030 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 07:00:29,030 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 07:00:29,033 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-13 07:00:29,056 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-13 07:00:29,059 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 07:00:29,059 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 07:00:29,059 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/cambioService-book/cambio-service/src/test/resources
+2022-04-13 07:00:31,449 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 07:00:31,450 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 07:00:31,450 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-13 07:00:31,469 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-13 07:00:31,473 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 07:00:31,473 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 07:00:31,473 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/cambioService-book/book-service/src/test/resources
+2022-04-13 07:00:37,797 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/spring-web/5.3.19-SNAPSHOT/spring-web-5.3.19-20220413.091322-12-sources.jar
+2022-04-13 07:00:40,336 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/spring-web/5.3.19-SNAPSHOT/spring-web-5.3.19-20220413.091322-12-sources.jar
+2022-04-13 07:00:40,427 [Worker-56: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:5.3.19-SNAPSHOT
+2022-04-13 07:00:41,279 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/spring-beans/5.3.19-SNAPSHOT/spring-beans-5.3.19-20220413.091322-12-sources.jar
+2022-04-13 07:00:56,231 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/spring-beans/5.3.19-SNAPSHOT/spring-beans-5.3.19-20220413.091322-12-sources.jar
+2022-04-13 07:00:56,326 [Worker-56: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:5.3.19-SNAPSHOT
+2022-04-13 07:00:57,458 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/spring-webmvc/5.3.19-SNAPSHOT/spring-webmvc-5.3.19-20220413.091322-12-sources.jar
+2022-04-13 07:00:58,665 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/spring-webmvc/5.3.19-SNAPSHOT/spring-webmvc-5.3.19-20220413.091322-12-sources.jar
+2022-04-13 07:00:58,787 [Worker-56: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:5.3.19-SNAPSHOT
+2022-04-13 07:00:59,915 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/spring-aop/5.3.19-SNAPSHOT/spring-aop-5.3.19-20220413.091322-12-sources.jar
+2022-04-13 07:01:01,038 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/spring-aop/5.3.19-SNAPSHOT/spring-aop-5.3.19-20220413.091322-12-sources.jar
+2022-04-13 07:01:01,160 [Worker-56: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:5.3.19-SNAPSHOT
+2022-04-13 07:01:01,971 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/spring-expression/5.3.19-SNAPSHOT/spring-expression-5.3.19-20220413.091322-12-sources.jar
+2022-04-13 07:01:02,987 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/spring-expression/5.3.19-SNAPSHOT/spring-expression-5.3.19-20220413.091322-12-sources.jar
+2022-04-13 07:01:03,102 [Worker-56: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:5.3.19-SNAPSHOT
+2022-04-13 07:01:03,424 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 07:01:03,424 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 07:01:03,425 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-13 07:01:03,425 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-13 07:01:03,439 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 07:01:03,439 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 07:01:03,439 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/cambioService-book/service-registry/src/test/resources
+2022-04-13 07:01:05,445 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/spring-test/5.3.19-SNAPSHOT/spring-test-5.3.19-20220413.091322-12-sources.jar
+2022-04-13 07:01:07,083 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/spring-test/5.3.19-SNAPSHOT/spring-test-5.3.19-20220413.091322-12-sources.jar
+2022-04-13 07:01:07,258 [Worker-56: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-test:5.3.19-SNAPSHOT
+2022-04-13 07:01:07,445 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 07:01:07,445 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 07:01:07,446 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-13 07:01:07,446 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-13 07:01:07,449 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-13 07:01:07,449 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-13 07:01:07,449 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/cambioService-book/service-registry/src/test/resources
+2022-04-13 07:01:20,191 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.5/spring-cloud-starter-netflix-eureka-client-3.0.5-javadoc.jar
+2022-04-13 07:01:23,183 [Worker-66: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.5/spring-cloud-starter-netflix-eureka-client-3.0.5-javadoc.jar
+2022-04-13 07:01:23,184 [Worker-66: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:3.0.5
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:3.0.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
