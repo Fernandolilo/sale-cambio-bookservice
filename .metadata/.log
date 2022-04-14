@@ -2936,3 +2936,575 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-
 !MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:3.0.5
 !SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-04-13 07:01:23.185
 !MESSAGE Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:3.0.5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:33.480
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:33.481
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@c9f769d[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=560)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:33.481
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.377
+!MESSAGE Boot LS startup time from start to initialized: 3895ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.524
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dWHSQMclisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.525
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.525
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.526
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.526
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dWHSQMcl => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.526
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.530
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.531
+!MESSAGE buffering callback sts4.classpath.dWHSQMcl book-service false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.532
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.549
+!MESSAGE classpath=143 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.551
+!MESSAGE buffering callback sts4.classpath.dWHSQMcl cambio-service false 143
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.551
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.552
+!MESSAGE classpath=131 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.553
+!MESSAGE buffering callback sts4.classpath.dWHSQMcl service-registry false 131
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:37.553
+!MESSAGE executing callback sts4.classpath.dWHSQMcl 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:05:38.247
+!MESSAGE executing callback sts4.classpath.dWHSQMcl SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:27.235
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dWHSQMcl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:27.236
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.dWHSQMcl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:27.237
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:27.238
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dWHSQMcl => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:33.428
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:33.429
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@c9f769d[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=560)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:33.429
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.796
+!MESSAGE Boot LS startup time from start to initialized: 3366ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.910
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jOfkODRnisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.910
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.911
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.911
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.911
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.911
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jOfkODRn => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.915
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.916
+!MESSAGE buffering callback sts4.classpath.jOfkODRn book-service false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.917
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.922
+!MESSAGE classpath=143 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.923
+!MESSAGE buffering callback sts4.classpath.jOfkODRn cambio-service false 143
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.923
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.925
+!MESSAGE classpath=131 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.927
+!MESSAGE buffering callback sts4.classpath.jOfkODRn service-registry false 131
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:36.927
+!MESSAGE executing callback sts4.classpath.jOfkODRn 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:07:37.509
+!MESSAGE executing callback sts4.classpath.jOfkODRn SUCCESS [done]
+
+!ENTRY Activator 4 0 2022-04-13 07:10:47.283
+!MESSAGE DebugException: Launch configuration book-service - BookServiceApplication (1) at file:/home/fernando/temp-sts/cambioService-book/.metadata/.plugins/org.eclipse.debug.core/.launches/book-service%20-%20BookServiceApplication%20(1).launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration book-service - BookServiceApplication (1) at file:/home/fernando/temp-sts/cambioService-book/.metadata/.plugins/org.eclipse.debug.core/.launches/book-service%20-%20BookServiceApplication%20(1).launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:885)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1368)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:488)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:439)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProjectName(AbstractBootLaunchConfigurationDelegate.java:316)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProject(AbstractBootLaunchConfigurationDelegate.java:301)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElement.getProject(LaunchConfDashElement.java:68)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElement.getParent(LaunchConfDashElement.java:89)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElement.getParent(LaunchConfDashElement.java:1)
+	at org.springframework.ide.eclipse.boot.dash.views.sections.BootDashTreeContentProvider.getParent(BootDashTreeContentProvider.java:68)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1768)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:573)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1696)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2575)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:3036)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1405)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1482)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.springframework.ide.eclipse.boot.dash.views.sections.BootDashUnifiedTreeSection$3$1.run(BootDashUnifiedTreeSection.java:208)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1238)
+	at org.eclipse.debug.ui.DebugUITools.lambda$1(DebugUITools.java:630)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:636)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:574)
+	at org.springframework.ide.eclipse.boot.dash.views.DefaultUserInteractions$4.run(DefaultUserInteractions.java:142)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2022-04-13 07:10:47.284
+!MESSAGE Launch configuration book-service - BookServiceApplication (1) at file:/home/fernando/temp-sts/cambioService-book/.metadata/.plugins/org.eclipse.debug.core/.launches/book-service%20-%20BookServiceApplication%20(1).launch does not exist.
+
+!ENTRY Activator 4 0 2022-04-13 07:15:16.229
+!MESSAGE DebugException: Launch configuration cambio-service=8001 (1) at file:/home/fernando/temp-sts/cambioService-book/.metadata/.plugins/org.eclipse.debug.core/.launches/cambio-service=8001%20(1).launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration cambio-service=8001 (1) at file:/home/fernando/temp-sts/cambioService-book/.metadata/.plugins/org.eclipse.debug.core/.launches/cambio-service=8001%20(1).launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:885)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1368)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:488)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:643)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElementFactory.createOrGet(LaunchConfDashElementFactory.java:81)
+	at org.springframework.ide.eclipse.boot.dash.model.BootProjectDashElement$5.apply(BootProjectDashElement.java:228)
+	at org.springframework.ide.eclipse.boot.dash.model.BootProjectDashElement$5.apply(BootProjectDashElement.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.MapSet.compute(MapSet.java:44)
+	at org.springsource.ide.eclipse.commons.livexp.core.MapSet.compute(MapSet.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springsource.ide.eclipse.commons.livexp.core.AsyncLiveExpression.syncRefresh(AsyncLiveExpression.java:134)
+	at org.springsource.ide.eclipse.commons.livexp.core.AsyncLiveExpression.refresh(AsyncLiveExpression.java:129)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression$1.gotValue(LiveExpression.java:116)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.AsyncLiveExpression.syncChanged(AsyncLiveExpression.java:152)
+	at org.springsource.ide.eclipse.commons.livexp.core.AsyncLiveExpression.changed(AsyncLiveExpression.java:147)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveSetVariable.syncRefresh(LiveSetVariable.java:88)
+	at org.springsource.ide.eclipse.commons.livexp.core.AsyncLiveExpression.refresh(AsyncLiveExpression.java:129)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveSetVariable.replaceAll(LiveSetVariable.java:168)
+	at org.springframework.ide.eclipse.boot.dash.util.LaunchConfigurationTracker$2.run(LaunchConfigurationTracker.java:128)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2022-04-13 07:15:16.229
+!MESSAGE Launch configuration cambio-service=8001 (1) at file:/home/fernando/temp-sts/cambioService-book/.metadata/.plugins/org.eclipse.debug.core/.launches/cambio-service=8001%20(1).launch does not exist.
+
+!ENTRY Activator 4 0 2022-04-13 07:15:16.719
+!MESSAGE DebugException: Launch configuration cambio-service=8001 (1) at file:/home/fernando/temp-sts/cambioService-book/.metadata/.plugins/org.eclipse.debug.core/.launches/cambio-service=8001%20(1).launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration cambio-service=8001 (1) at file:/home/fernando/temp-sts/cambioService-book/.metadata/.plugins/org.eclipse.debug.core/.launches/cambio-service=8001%20(1).launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:885)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1368)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:488)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:439)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProjectName(AbstractBootLaunchConfigurationDelegate.java:316)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProject(AbstractBootLaunchConfigurationDelegate.java:301)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElement.getProject(LaunchConfDashElement.java:68)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElement.getParent(LaunchConfDashElement.java:89)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElement.getParent(LaunchConfDashElement.java:1)
+	at org.springframework.ide.eclipse.boot.dash.views.sections.BootDashTreeContentProvider.getParent(BootDashTreeContentProvider.java:68)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1768)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:573)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1696)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2575)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:3036)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1405)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1482)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.springframework.ide.eclipse.boot.dash.views.sections.BootDashUnifiedTreeSection$3$1.run(BootDashUnifiedTreeSection.java:208)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1238)
+	at org.eclipse.debug.ui.DebugUITools.lambda$1(DebugUITools.java:630)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:636)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:574)
+	at org.springframework.ide.eclipse.boot.dash.views.DefaultUserInteractions$4.run(DefaultUserInteractions.java:142)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2022-04-13 07:15:16.719
+!MESSAGE Launch configuration cambio-service=8001 (1) at file:/home/fernando/temp-sts/cambioService-book/.metadata/.plugins/org.eclipse.debug.core/.launches/cambio-service=8001%20(1).launch does not exist.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:21:13.653
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jOfkODRn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:21:13.658
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.jOfkODRn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:21:13.659
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-13 07:21:13.659
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jOfkODRn => OK
+!SESSION 2022-04-14 20:13:46.196 -----------------------------------------------
+eclipse.buildId=4.14.0.202203131612
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-04-14 20:13:54.052
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-14 20:13:54.052
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b9beefe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4cddc036,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-14 20:13:54.052
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23d12a3a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70df41f9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:01.497
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:01.498
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@15d960b4[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=560)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:01.503
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:01.537
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.330
+!MESSAGE Boot LS startup time from start to initialized: 5816ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.633
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZoeNbuZvisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.642
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.649
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.651
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.651
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.652
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZoeNbuZv => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.667
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.670
+!MESSAGE buffering callback sts4.classpath.ZoeNbuZv book-service false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.672
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.679
+!MESSAGE classpath=143 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.681
+!MESSAGE buffering callback sts4.classpath.ZoeNbuZv cambio-service false 143
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.682
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.689
+!MESSAGE classpath=131 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.693
+!MESSAGE buffering callback sts4.classpath.ZoeNbuZv service-registry false 131
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:07.694
+!MESSAGE executing callback sts4.classpath.ZoeNbuZv 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:14:09.016
+!MESSAGE executing callback sts4.classpath.ZoeNbuZv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:18:01.870
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:18:01.875
+!MESSAGE classpath=144 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:18:01.877
+!MESSAGE buffering callback sts4.classpath.ZoeNbuZv gateway false 144
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:18:01.877
+!MESSAGE executing callback sts4.classpath.ZoeNbuZv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:18:01.927
+!MESSAGE executing callback sts4.classpath.ZoeNbuZv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:18:04.724
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:18:04.728
+!MESSAGE classpath=144 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:18:04.730
+!MESSAGE buffering callback sts4.classpath.ZoeNbuZv gateway false 144
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:18:04.731
+!MESSAGE executing callback sts4.classpath.ZoeNbuZv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:18:04.751
+!MESSAGE executing callback sts4.classpath.ZoeNbuZv SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-04-14 20:18:05.575
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-gateway:3.0.6
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:3.0.6
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:3.0.6
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-04-14 20:18:05.577
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:3.0.6
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-04-14 20:18:05.577
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:3.0.6
+
+!ENTRY org.eclipse.ui 2 2 2022-04-14 20:18:19.729
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-04-14 20:18:45.917
+!MESSAGE Could not download sources for io.netty:netty-resolver-dns-native-macos:4.1.75.Final:osx-x86_64
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact io.netty:netty-resolver-dns-native-macos:jar:sources:4.1.75.Final
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing io.netty:netty-resolver-dns-native-macos:jar:sources:4.1.75.Final
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-04-14 20:18:45.918
+!MESSAGE Could not resolve artifact io.netty:netty-resolver-dns-native-macos:jar:sources:4.1.75.Final
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-04-14 20:18:45.918
+!MESSAGE Missing io.netty:netty-resolver-dns-native-macos:jar:sources:4.1.75.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:19:06.964
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:19:06.968
+!MESSAGE classpath=144 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:19:06.970
+!MESSAGE buffering callback sts4.classpath.ZoeNbuZv gateway false 144
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:19:06.971
+!MESSAGE executing callback sts4.classpath.ZoeNbuZv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:19:06.987
+!MESSAGE executing callback sts4.classpath.ZoeNbuZv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:19:52.694
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:19:52.697
+!MESSAGE classpath=144 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:19:52.698
+!MESSAGE buffering callback sts4.classpath.ZoeNbuZv gateway false 144
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:19:52.698
+!MESSAGE executing callback sts4.classpath.ZoeNbuZv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:19:52.715
+!MESSAGE executing callback sts4.classpath.ZoeNbuZv SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-04-14 20:19:58.636
+!MESSAGE Could not download javadoc for io.netty:netty-resolver-dns-native-macos:4.1.75.Final:osx-x86_64
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact io.netty:netty-resolver-dns-native-macos:jar:javadoc:4.1.75.Final
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing io.netty:netty-resolver-dns-native-macos:jar:javadoc:4.1.75.Final
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-04-14 20:19:58.637
+!MESSAGE Could not resolve artifact io.netty:netty-resolver-dns-native-macos:jar:javadoc:4.1.75.Final
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-04-14 20:19:58.637
+!MESSAGE Missing io.netty:netty-resolver-dns-native-macos:jar:javadoc:4.1.75.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:19:58.781
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:19:58.785
+!MESSAGE classpath=144 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:19:58.786
+!MESSAGE buffering callback sts4.classpath.ZoeNbuZv gateway false 144
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:19:58.787
+!MESSAGE executing callback sts4.classpath.ZoeNbuZv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-14 20:19:58.801
+!MESSAGE executing callback sts4.classpath.ZoeNbuZv SUCCESS [done]

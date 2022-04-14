@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import response.Cambio;
 
-@FeignClient(name = "cambio-service", url = "localhost:8000")
+@FeignClient(name = "cambio-service")
 
 /*
  * @FeignClient(name = "cambio-service", url = "localhost:8000") name =

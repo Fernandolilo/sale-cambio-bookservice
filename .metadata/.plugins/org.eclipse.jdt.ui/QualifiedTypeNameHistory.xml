@@ -16,7 +16,6 @@
     <fullyQualifiedTypeName name="javax.persistence.TemporalType"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="br.com.systempro.bookservice.model.Book"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="br.com.systempro.bookservice.repositories.BookRepository"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnoreProperties"/>
@@ -28,4 +27,9 @@
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="br.com.sistempro.cambioservice.model.Cambio"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.EnableFeignClients"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.FeignClient"/>
+    <fullyQualifiedTypeName name="br.com.systempro.bookservice.proxi.CambioProxi"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
 </qualifiedTypeNameHistroy>
