@@ -31,8 +31,8 @@ services:
       - 8080:8080
 
 
-para acessar cambio-service por gateway: http://localhost:8765/cambio-service/cambio-service/1/USD/BRL
-para acessar book-service por gateway: http://localhost:8765/book-service/book-service/1/BRL
+para acessar cambio-service por gateway: http://localhost:8765/cambio-service/1/USD/BRL
+para acessar book-service por gateway: http://localhost:8765/book-service/1/BRL
 para ver configurações da api-gateway: http://localhost:8765/get
 
 {
