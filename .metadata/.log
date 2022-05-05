@@ -4400,3 +4400,87 @@ java.io.IOException: Stream closed
 	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:252)
 	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
 	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 18:58:56.002
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SjBbNmZu
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 18:58:56.084
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.SjBbNmZu
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 18:58:56.085
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 18:58:56.086
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SjBbNmZu => OK
+
+!ENTRY org.eclipse.ui 2 2 2022-05-05 18:58:59.961
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:54.546
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:54.547
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7a646524[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=560)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:54.547
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:57.794
+!MESSAGE Boot LS startup time from start to initialized: 3246ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:57.939
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ufUmLPSrisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:57.939
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:57.940
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:57.941
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:57.941
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:57.942
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ufUmLPSr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:57.945
+!MESSAGE classpath=177 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:57.946
+!MESSAGE buffering callback sts4.classpath.ufUmLPSr book-service false 177
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:57.947
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:58.154
+!MESSAGE classpath=143 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:58.155
+!MESSAGE buffering callback sts4.classpath.ufUmLPSr cambio-service false 143
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:58.156
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:58.230
+!MESSAGE classpath=142 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:58.231
+!MESSAGE buffering callback sts4.classpath.ufUmLPSr gateway false 142
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:58.231
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:58.257
+!MESSAGE classpath=131 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:58.258
+!MESSAGE buffering callback sts4.classpath.ufUmLPSr service-registry false 131
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:58.258
+!MESSAGE executing callback sts4.classpath.ufUmLPSr 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-05 19:07:59.462
+!MESSAGE executing callback sts4.classpath.ufUmLPSr SUCCESS [done]
