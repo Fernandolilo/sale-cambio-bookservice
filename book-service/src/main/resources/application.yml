@@ -50,4 +50,9 @@ spring:
     url: jdbc:mysql://localhost:3306/
     schemas: book_service
     user: root
-    password: root     
+    password: root
+#passando as config de docs para o gateway    
+springdoc:
+  show-actuator: true
+  api-docs:
+    path: book-service/v3/api-docs

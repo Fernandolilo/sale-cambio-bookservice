@@ -13,8 +13,7 @@ spring:
         locator:
           enabled: true
           #lower-case-service-id: true
-      routes:  
-      
+      routes:      
       - id: book-service
         uri: lb://book-service
         predicates:
@@ -24,4 +23,12 @@ spring:
         uri: lb://cambio-service
         predicates:
         - Path=/cambio-service/**
-    
+        #configuração de decumentação para o gateway consumir a documentaçao das outras apis.
+      - id: openapi
+        uri: lb://api-gateway
+        predicates:
+        - Path=/v3/api-docs/**
+        filters:
+        - RewritePath=/v3/api-docs/(?<path>.*),/$\{path}/v3/api-docs
+        
+     
