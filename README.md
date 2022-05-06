@@ -2,6 +2,38 @@
 
 API micro-serviço para gerenciar taxa de cambio, BD MySql.
 
+para acessar a documentação da API GATEWAY
+
+http://localhost:8765/swagger-ui.html
+
+Para acessar a DOCUMENTAÃO DE BOOK-SERVICE
+
+localhost:8100/swagger-ui.html
+
+Para acessar a DOCUMENTAÃO DE CAMBIO-SERVICE
+
+localhost:8000/swagger-ui.html
+
+INFORMAÇÃO IMPORTANTE, NA DOCUMENTAÇÃO DE GATEWAY NÃO É POSSIVEL CONSUMIR AS APIS, POIS OS ENDPOINTS SÃO DINAMICOS, SÃO APENAS PARA EXPOR
+CASO QUEIRA VER ENTRAR NAS DOCS DAS APIS E TESTAR, OU DIRETAMETNE PELO CAMINHO DO GATEWAY PELO POSTMAN.
+
+http://localhost:8765/book-service/1/BRL TESTA O BOOK-SERVICE
+http://localhost:8765/CAMBIO-SERVICE/cambio-service/1/USD/BRL  
+TESTA O CAMBIO, AS MOEDAS QUE ESTÃO SALVAS NO BANCO DE DADOS ABAIXO, LEMBRANDO QUE ESTÃO MOCKADAS;
+
+ Modify	id	from_currency	to_currency	conversion_factor
+ 	1	USD	BRL	5.73
+ 	2	USD	EUR	0.84
+ 	3	USD	GBP	0.73
+ 	4	USD	ARS	92.56
+ 	5	USD	CLP	713.30
+ 	6	USD	COP	3665.00
+ 	7	USD	MXN	20.15
+
+
+
+
+
 gerar container para banco de dados MySql com o adminer4 para manipulara dados, criar um repositorio, salvar o arquivo a baixo 
 como docker-compose.yml 
 
