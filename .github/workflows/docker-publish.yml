@@ -41,9 +41,17 @@ jobs:
       - name: Push to Docker Container Registry
         run: |
           docker tag ${{ secrets.DOCKER_USERNAME }}/service-registry:0.0.1-SNAPSHOT ${{ secrets.DOCKER_USERNAME }}/service-registry:${{ github.run_id}}
+          docker tag ${{ secrets.DOCKER_USERNAME }}/service-registry:0.0.1-SNAPSHOT ${{ secrets.DOCKER_USERNAME }}/service-registry:lates
+          
           docker tag ${{ secrets.DOCKER_USERNAME }}/gateway:0.0.1-SNAPSHOT ${{ secrets.DOCKER_USERNAME }}/gateway:${{ github.run_id}}
+          docker tag ${{ secrets.DOCKER_USERNAME }}/gateway:0.0.1-SNAPSHOT ${{ secrets.DOCKER_USERNAME }}/gateway:latest
+           
           docker tag ${{ secrets.DOCKER_USERNAME }}/cambio-service:latest ${{ secrets.DOCKER_USERNAME}}/cambio-service:${{ github.run_id}}
+          docker tag ${{ secrets.DOCKER_USERNAME }}/cambio-service:latest ${{ secrets.DOCKER_USERNAME}}/cambio-service:latest
+          
           docker tag ${{ secrets.DOCKER_USERNAME }}/book-service:latest ${{ secrets.DOCKER_USERNAME }}/book-service:${{ github.run_id}}
+          docker tag ${{ secrets.DOCKER_USERNAME }}/book-service:latest ${{ secrets.DOCKER_USERNAME }}/book-service:latest
+          
           docker push ${{ secrets.DOCKER_USERNAME }}/service-registry:${{ github.run_id}}
           docker push ${{ secrets.DOCKER_USERNAME }}/gateway:${{ github.run_id}}
           docker push ${{ secrets.DOCKER_USERNAME}}/cambio-service:${{ github.run_id}}
