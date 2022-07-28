@@ -41,7 +41,7 @@ jobs:
       - name: Push to Docker Container Registry
         run: |
           docker tag ${{ secrets.DOCKER_USERNAME }}/service-registry:0.0.1-SNAPSHOT ${{ secrets.DOCKER_USERNAME }}/service-registry:${{ github.run_id}}
-          docker tag ${{ secrets.DOCKER_USERNAME }}/service-registry:0.0.1-SNAPSHOT ${{ secrets.DOCKER_USERNAME }}/service-registry:lates
+          docker tag ${{ secrets.DOCKER_USERNAME }}/service-registry:0.0.1-SNAPSHOT ${{ secrets.DOCKER_USERNAME }}/service-registry:latest
           
           docker tag ${{ secrets.DOCKER_USERNAME }}/gateway:0.0.1-SNAPSHOT ${{ secrets.DOCKER_USERNAME }}/gateway:${{ github.run_id}}
           docker tag ${{ secrets.DOCKER_USERNAME }}/gateway:0.0.1-SNAPSHOT ${{ secrets.DOCKER_USERNAME }}/gateway:latest
