@@ -21,6 +21,12 @@ jobs:
       - name: Build Eureka Registry Server Container
         working-directory: ./service-registry
         run: mvn spring-boot:build-image -DskipTests
+        
+      - name: Build API-GATEWAY Server Container
+        working-directory: ./GATEWAY
+        run: mvn spring-boot:build-image -DskipTests
+        
+      
    
 
       
