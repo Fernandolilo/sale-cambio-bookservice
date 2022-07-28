@@ -3,6 +3,8 @@ package br.com.sistempro.cambioservice.controller;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -30,6 +32,8 @@ public class CambioController {
 	 * App, open config, em arguents passar o paramentro -Dserver.port=8001 como por
 	 * padrão estou usando a porta 8000, sempre a mais proxima
 	 */
+	
+	private Logger logger = LoggerFactory.getLogger(CambioController.class);
 
 	@Autowired
 	private Environment environment;
@@ -49,6 +53,7 @@ public class CambioController {
 			throw new RuntimeException("Currency Unsupported");
 		}
 		//pega a porta de servico
+		logger.info("getCambio is called with ->{}, {} and {}", amount, from, to);
 		var port = environment.getProperty("local.server.port");
 		
 		//fazendo a conversão

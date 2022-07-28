@@ -1,7 +1,11 @@
-﻿CREATE TABLE `book` (
-  `id` INT(10) AUTO_INCREMENT PRIMARY KEY,
-  `author` longtext,
-  `launch_date` datetime(6) NOT NULL,
-  `price` decimal(65,2) NOT NULL,
-  `title` longtext
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+ CREATE table ﻿book(
+  id INT,
+  author varchar(250) NOT NULL,
+  launch_date date NOT NULL,
+  price decimal(65,2) NOT NULL,
+  title varchar(250) NOT NULL,
+   PRIMARY key (id)
+);
+
+
+
