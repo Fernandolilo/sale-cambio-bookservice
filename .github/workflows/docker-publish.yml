@@ -23,8 +23,16 @@ jobs:
         run: mvn spring-boot:build-image -DskipTests
         
       - name: Build API-GATEWAY Server Container
-        working-directory: ./GATEWAY
+        working-directory: ./gateway
         run: mvn spring-boot:build-image -DskipTests
+     
+      - name: Build API-CAMBIO Server Jar
+        working-directory: ./cambio-service
+        run: mvn clean package -DskipTests
+  
+      - name: Build API-BOOK Server Jar
+        working-directory: ./book-service
+        run: mvn clean package -DskipTests
         
       
    
